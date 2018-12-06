@@ -11,7 +11,7 @@ public class exercicio10 {
 		
 		
 		System.out.println("M-matutino | V-vespetino | N-noturno");
-		System.out.println("Informe o turno que você estuda");
+		System.out.println("Informe o turno que vocï¿½ estuda");
 		
 		String letter = scan.nextLine();
 		
@@ -23,7 +23,7 @@ public class exercicio10 {
 		case "v": System.out.println("Boa tarde!"); break;
 		case "N": System.out.println("Boa noite!"); break;
 		case "n": System.out.println("Boa noite!"); break;
-		default: System.out.println("VAlor invalido!");
+		default: System.out.println("Valor invalido!");
 		
 		}
 
