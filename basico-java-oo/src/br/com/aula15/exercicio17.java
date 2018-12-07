@@ -39,15 +39,14 @@ public class exercicio17 {
 				} else {
 					System.out.println(ano + ": Nâo é um ano bissesto 0");
 				}
-			}
-		/*	if((result % 2) !=0){
+			} else if((result % 2) !=0){
 				if((result2 % 2)!=0) {
 					System.out.println(ano + ": Nâo é um ano biscesto 2° opção");
 				} else {
 					System.out.println("É um ano biscesto 2 opção");
 				}
 				
-			}*/ 
+			} 
 			rodar++;
 			
 		}
