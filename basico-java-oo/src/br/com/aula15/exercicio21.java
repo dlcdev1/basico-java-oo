@@ -6,9 +6,9 @@ public class exercicio21 {
 
 	public static void main(String[] args) {
 
-		int rodar=1;
-		
-		while(rodar !=0) {
+		int rodar = 1;
+
+		while (rodar != 0) {
 			Scanner scan = new Scanner(System.in);
 
 			System.out.println("Escolha o tipo de combustível:");
@@ -47,11 +47,8 @@ public class exercicio21 {
 			default:
 				System.out.println("Opção invalida:");
 			}
-			
-			
+
 		}
-		
-		
 
 	}
 
