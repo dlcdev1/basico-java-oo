@@ -21,9 +21,8 @@ public class exercicio4 {
 				paisB = (int) (paisB * 1.015);
 
 			}
-			
+
 			paisA++;
-			// paisA = (int) (paisA * 1.03);
 
 		}
 		System.out.println("Pais A: " + paisA);
