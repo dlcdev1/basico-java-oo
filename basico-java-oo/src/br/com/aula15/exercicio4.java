@@ -10,11 +10,25 @@ public class exercicio4 {
 		String letter = scan.nextLine();
 		
 		
-		if((letter.contains("a")) || (letter.contains("A")) || (letter.contains("e")) || (letter.contains("E")) ||
+		/*if((letter.contains("a")) || (letter.contains("A")) || (letter.contains("e")) || (letter.contains("E")) ||
 (letter.contains("i")) || (letter.contains("I")) || (letter.contains("o")) || (letter.contains("O")) || (letter.contains("u")) || (letter.contains("U"))) {
 			System.out.println("Esta letra é vogal");
 		} else {
 			System.out.println("Esta letra é uma consoante");
+		}*/
+		
+		switch(letter) {
+		case "a":
+		case "e":
+		case "i":
+		case "o":
+		case "u":
+		case "A":
+		case "E":
+		case "I":
+		case "O":
+		case "U": System.out.println("vogal"); break;
+		default: System.out.println("consoante");
 		}
 				
 	}

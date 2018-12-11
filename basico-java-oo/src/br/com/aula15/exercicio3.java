@@ -13,9 +13,9 @@ public class exercicio3 {
 		
 		System.out.println("valor é igual:" + letter);
 		
-		if((letter.contains("M")) || (letter.contains("m"))) {
+		if(letter.equalsIgnoreCase("m")) {
 			System.out.println("Masculino:");
-		} else if ((letter.contains("F")) ||(letter.contains("f"))) {
+		} else if (letter.equalsIgnoreCase("f")) {
 			System.out.println("Feminino");
 		} else {
 			System.out.println("Sexo invalido");
