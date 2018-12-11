@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class exercicio4 {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+
 		int count = 1;
 		int paisA = 80000;
 		int paisB = 200000;
@@ -21,9 +21,8 @@ public class exercicio4 {
 				paisB = (int) (paisB * 1.015);
 
 			}
-			
+
 			paisA++;
-			// paisA = (int) (paisA * 1.03);
 
 		}
 		System.out.println("Pais A: " + paisA);
