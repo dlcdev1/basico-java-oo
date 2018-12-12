@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class exercicio4 {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+
 		int count = 1;
 		int paisA = 80000;
 		int paisB = 200000;
