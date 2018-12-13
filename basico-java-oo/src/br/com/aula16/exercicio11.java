@@ -28,7 +28,7 @@ public class exercicio11 {
 				soma = result + soma;
 				
 		} while (i < number2);
-		System.out.println(" resultado " + (soma + number));
+		System.out.print(" resultado " + (soma + number));
 
 	}
 }
