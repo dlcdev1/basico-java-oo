@@ -6,10 +6,10 @@ public class Operadores2 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		int x =0, y=0, w=0;
-		float z=0;
-		int result=0, result1=0, result2=0;
-		
+		int x = 0, y = 0, w = 0;
+		float z = 0;
+		int result = 0, result1 = 0, result2 = 0;
+
 		System.out.println("informe o numero de X:");
 		x = scan.nextInt();
 		System.out.println("informe o numero de Y:");
@@ -18,16 +18,15 @@ public class Operadores2 {
 		w = scan.nextInt();
 		System.out.println("informe o numero de Z:");
 		z = scan.nextFloat();
-		
-		result = (int) (x + y *z / x -y % w);
+
+		result = (int) (x + y * z / x - y % w);
 		System.out.println(result);
-		
-		result1 = (int)((x+y) *z /(x-(y%w)));
+
+		result1 = (int) ((x + y) * z / (x - (y % w)));
 		System.out.println(result1);
-		
-		result2 = (int)(y+(y*(z/x))-y)%w;
+
+		result2 = (int) (y + (y * (z / x)) - y) % w;
 		System.out.println(result2);
-		
 
 	}
 
