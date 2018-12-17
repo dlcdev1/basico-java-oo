@@ -1,5 +1,7 @@
 package br.com.aula27;
 
+//https://www.slideshare.net/loianeg/curso-java-basico-exercicios-aula-25-a-27
+
 public class Aluno {
 	String nome;
 	String matricula;
