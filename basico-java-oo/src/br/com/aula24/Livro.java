@@ -1,0 +1,10 @@
+package br.com.aula24;
+
+public class Livro {
+	
+	String nome;
+	String autor;
+	int pag;
+	String tipoHistoria;
+	String classificacao;
+}

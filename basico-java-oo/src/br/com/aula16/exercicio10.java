@@ -22,7 +22,7 @@ public class exercicio10 {
 			i++;
 			System.out.print(" " + i);
 		} while (i < number2);
-
+		
 	}
 
 }
