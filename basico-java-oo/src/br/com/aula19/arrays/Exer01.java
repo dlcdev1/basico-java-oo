@@ -1,4 +1,7 @@
-package br.com.aula19;
+package br.com.aula19.arrays;
+
+//https://www.slideshare.net/loianeg/curso-java-basico-exercicios-aula-19
+
 
 import java.util.Scanner;
 
