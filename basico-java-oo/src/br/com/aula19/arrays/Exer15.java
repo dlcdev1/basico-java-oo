@@ -35,8 +35,10 @@ public class Exer15 {
 			}
 
 		}
-		System.out.println("Total de Pares " + ((float) count / vetorA.length * 100) + "%");
-		System.out.println("Total de Impares" + ((float) countI / vetorA.length * 100) + "%");
+		System.out
+				.println("Total de Pares " + count + " resultado final" + ((float) count / vetorA.length * 100) + "%");
+		System.out.println(
+				"Total de Impares " + countI + "  resultado final" + ((float) countI / vetorA.length * 100) + "%");
 
 	}
 
