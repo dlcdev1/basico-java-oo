@@ -9,7 +9,7 @@ public class Exer12 {
 
 		int[] vetorA = new int[10];
 		int soma=0;
-		int[] result = new int[vetorA.length];
+		
 
 		for (int i = 0; i < vetorA.length; i++) {
 			System.out.println("Informe o " + i + "° número");
