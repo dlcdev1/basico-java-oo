@@ -18,6 +18,11 @@ public class Exer19 {
 			System.out.println("Informe a 2° nota do " + aluno[i]);
 			vetorB[i] = scan.nextFloat();
 		}
+		for (int i=0; i < aluno.length; i++) {
+			System.out.println(aluno[i]);
+			System.out.println(vetorA[i]);
+			System.out.println(vetorB[i]+"\n");
+		}
 
 	}
 
