@@ -25,7 +25,7 @@ public class Exer18_rv {
 		}
 		for (int i = 0; i < vetorA.length; i++) {
 			System.out.println(vetorA[i]);
-			if (vetorA[i] < idadeMenor && vetorA[i]>0) {
+			if (vetorA[i] < idadeMenor && vetorA[i] > 0) {
 				idadeMenor = vetorA[i];
 				if (vetorA[i] < idadeMenor) {
 					idadeMenor = vetorA[i];

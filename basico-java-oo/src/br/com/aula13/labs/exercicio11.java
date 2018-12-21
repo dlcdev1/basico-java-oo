@@ -22,7 +22,7 @@ public class exercicio11 {
 
 		int result1 = (number1 * 2) * (number2 / 2);
 		double result2 = number1 * 3 + numberReal;
-		double result3 =  Math.pow(numberReal, 3);
+		double result3 = Math.pow(numberReal, 3);
 
 		System.out.println("O produto do dobro do 1° com metade do 2°, é: " + result1);
 		System.out.println("A soma do tripo do 1° com o 3°: " + result2);

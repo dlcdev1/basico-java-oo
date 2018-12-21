@@ -9,9 +9,9 @@ public class LoopFor {
 		for (int i = 5; i >= 0; i--) {
 			System.out.println("i tem valor: " + i);
 		}
-		
-		for (int i = 0, j=10; i< j; i++, j--) {
-			System.out.println("I= " + i + ";j = "+ j);
+
+		for (int i = 0, j = 10; i < j; i++, j--) {
+			System.out.println("I= " + i + ";j = " + j);
 		}
 
 	}

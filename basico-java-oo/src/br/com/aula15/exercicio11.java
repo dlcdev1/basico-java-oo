@@ -19,7 +19,7 @@ public class exercicio11 {
 		System.out.println("Informe o salário:");
 		double salario = scan.nextDouble();
 		double result;
-		
+
 		if (salario <= 280) {
 			result = salario * 20 / 100;
 			System.out.println("O salario antes do reajuste era de: R$" + salario);

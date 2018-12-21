@@ -6,8 +6,8 @@ public class exercicio15 {
 
 	public static void main(String[] args) {
 		/*
-		 * Triangulo Equilátero: três lados iguais; Triangulo Isósceles: quaisquer dois
-		 * lados iguais Triângulo Escaleno: tês lados diferentes;
+		 * Triangulo Equilátero: três lados iguais; Triangulo Isósceles: quaisquer
+		 * dois lados iguais Triângulo Escaleno: tês lados diferentes;
 		 */
 		Scanner scan = new Scanner(System.in);
 		int rodar = 1;

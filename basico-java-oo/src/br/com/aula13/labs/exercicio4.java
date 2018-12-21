@@ -22,7 +22,7 @@ public class exercicio4 {
 
 		double resultado = nota1 + nota2 + nota3 + nota4;
 		double media = resultado / 4;
-		
+
 		System.out.println("Total das quatro notas é: " + resultado);
 		System.out.println("A média das notas são: " + media);
 

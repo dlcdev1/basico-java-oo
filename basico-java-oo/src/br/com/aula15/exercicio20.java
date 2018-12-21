@@ -24,26 +24,24 @@ public class exercicio20 {
 			System.out.println("Já trabalho com a vitima?");
 			String pergunta5 = scan.next();
 
-			
 			int cont = 0;
 
-			
 			if (pergunta1.equalsIgnoreCase("S")) {
-			 cont++;
+				cont++;
 			}
 			if (pergunta2.equalsIgnoreCase("S")) {
-				 cont++;
-				}
+				cont++;
+			}
 			if (pergunta3.equalsIgnoreCase("S")) {
-				 cont++;
-				}
+				cont++;
+			}
 			if (pergunta4.equalsIgnoreCase("S")) {
-				 cont++;
-				}
+				cont++;
+			}
 			if (pergunta5.equalsIgnoreCase("S")) {
-				 cont++;
-				}
-			 
+				cont++;
+			}
+
 			if (cont == 2) {
 				System.out.println("Suspeita");
 			} else if ((cont == 3) || (cont == 4)) {

@@ -16,7 +16,7 @@ public class Exer20_21 {
 		}
 
 		for (int i = 0; i < vetorA.length; i++) {
-			System.out.println("Variação é de: "+ i +" é " + vetorA[i]);
+			System.out.println("Variação é de: " + i + " é " + vetorA[i]);
 		}
 
 	}

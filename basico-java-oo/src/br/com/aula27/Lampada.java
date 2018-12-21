@@ -7,37 +7,34 @@ public class Lampada {
 	String cor;
 	String tipoLuz;
 	int garantiaMeses;
-	String[]tipos;
+	String[] tipos;
 	boolean tipoAbajur;
-	
+
 	boolean ligada;
 	boolean desligar;
-	
+
 	void ligar() {
 		ligada = true;
 	}
-	
+
 	void desligar() {
 		ligada = false;
 	}
-	
+
 	void mostrarEstado() {
-		if(ligada) {
+		if (ligada) {
 			System.out.println("A lampada esta ligada");
 		} else {
 			System.out.println("Lâmpada está desligada");
 		}
 	}
-	
+
 	void mudarEstado() {
-		if(ligada) {
+		if (ligada) {
 			desligar();
 		} else {
 			ligar();
 		}
 	}
-	
-
-	
 
 }

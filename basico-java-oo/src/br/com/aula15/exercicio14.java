@@ -31,17 +31,17 @@ public class exercicio14 {
 		System.out.println("4° nota: " + nota4);
 		System.out.println("5° nota: " + nota5);
 		System.out.println("6° nota: " + nota6);
-	
+
 		System.out.println("media: " + media);
-		
-		if(media > 9) {
+
+		if (media > 9) {
 			System.out.println("Conceito 'A' - APROVADO");
-		} else if((media > 7.5) && (media < 9)){
+		} else if ((media > 7.5) && (media < 9)) {
 			System.out.println("Conceito 'B' - APROVADO");
 		} else if ((media > 6) && (media < 7.5)) {
 			System.out.println("Conceito 'C' - APROVADO");
 		}
-		
+
 	}
 
 }

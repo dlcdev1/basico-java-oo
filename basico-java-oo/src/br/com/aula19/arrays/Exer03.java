@@ -12,7 +12,7 @@ public class Exer03 {
 		 * respectivo elemento de A, ou seja: B[I] = A[I]*A[I]
 		 */
 		Scanner scan = new Scanner(System.in);
-		
+
 		int[] vetorA = new int[15];
 		int[] vetorB = new int[vetorA.length];
 
@@ -41,6 +41,5 @@ public class Exer03 {
 		}
 
 	}
-	
 
 }

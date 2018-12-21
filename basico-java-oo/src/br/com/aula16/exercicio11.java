@@ -16,17 +16,17 @@ public class exercicio11 {
 		int soma = 0, soma1 = 0, result = 0;
 
 		while (i < number) {
-			System.out.print(" " + i);	
+			System.out.print(" " + i);
 
 			i++;
 		}
 		do {
 			i++;
 			System.out.println(" + " + i);
-			
-				result = i;
-				soma = result + soma;
-				
+
+			result = i;
+			soma = result + soma;
+
 		} while (i < number2);
 		System.out.print(" resultado " + (soma + number));
 

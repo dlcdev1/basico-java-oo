@@ -14,9 +14,9 @@ public class exercicio18 {
 			System.out.println("Informe um numero");
 			int number = scan.nextInt();
 			if (number % 2 == 0) {
-				System.out.println(number  + " Número PAR");
+				System.out.println(number + " Número PAR");
 			} else {
-				System.out.println(number  + " Número IMPAR");
+				System.out.println(number + " Número IMPAR");
 			}
 
 			rodar++;

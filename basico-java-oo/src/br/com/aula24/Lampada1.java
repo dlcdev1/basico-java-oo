@@ -1,11 +1,10 @@
 package br.com.aula24;
 
 public class Lampada1 {
-	
+
 	int preco;
 	String voltagem;
 	String tipo;
-	int durabilidade;	
-	
+	int durabilidade;
 
 }

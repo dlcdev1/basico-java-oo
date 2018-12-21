@@ -104,10 +104,10 @@ public class Exer19 {
 			}
 
 		}
-		for (int i=0; i < aluno.length; i++) {
+		for (int i = 0; i < aluno.length; i++) {
 			System.out.println(aluno[i]);
 			System.out.println(vetorA[i]);
-			System.out.println(vetorB[i]+"\n");
+			System.out.println(vetorB[i] + "\n");
 		}
 
 	}

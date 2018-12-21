@@ -6,15 +6,15 @@ public class exercicio5 {
 
 	public static void main(String[] args) {
 		// Converter metros em centimetros.
-		
+
 		Scanner scan = new Scanner(System.in);
-		
+
 		System.out.println("Informe um numero: ");
-		
+
 		double numero = scan.nextDouble();
 		double resultado = numero * 100;
-		
-		System.out.println("A conversão realizada é: " + resultado );
+
+		System.out.println("A conversão realizada é: " + resultado);
 
 	}
 

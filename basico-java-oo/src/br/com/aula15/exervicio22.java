@@ -32,7 +32,7 @@ public class exervicio22 {
 					System.out.println("Total é de 1.1: " + total1);
 				}
 
-			}else if ((kg > 6)) {
+			} else if ((kg > 6)) {
 				morango = morango * 2.20;
 				maca = maca * 1.50;
 				double total = morango + maca;
@@ -43,7 +43,7 @@ public class exervicio22 {
 				} else {
 					System.out.println("Total é de: " + total);
 				}
-			} 
+			}
 
 		}
 

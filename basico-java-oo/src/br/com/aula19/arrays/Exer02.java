@@ -21,11 +21,9 @@ public class Exer02 {
 			System.out.println("Entre com o primeiro valor");
 			vetorA[i] = scan.nextInt();
 
-			vetorB[i] = vetorA[i]*2;
-			//vetorB[i]*=2;
-			//vetorA[i]*=2;2
-			
-			
+			vetorB[i] = vetorA[i] * 2;
+			// vetorB[i]*=2;
+			// vetorA[i]*=2;2
 
 		}
 

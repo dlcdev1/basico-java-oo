@@ -6,7 +6,7 @@ public class Exer16 {
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
-		int result = 0, soma = 0, soma1=0,soma2=0, count = 0, number = 0, media=0;
+		int result = 0, soma = 0, soma1 = 0, soma2 = 0, count = 0, number = 0, media = 0;
 
 		int[] vetorA = new int[10];
 
@@ -20,28 +20,27 @@ public class Exer16 {
 			if (number < 15) {
 				result = number;
 				soma = result + soma;
-				
 
-			} 
-			if(number == 15) {
-				count++;
-				
 			}
-			if(number >15) {
+			if (number == 15) {
+				count++;
+
+			}
+			if (number > 15) {
 				result = number;
-				soma1= result + soma1;
-				
-				soma2=soma1;
+				soma1 = result + soma1;
+
+				soma2 = soma1;
 				media++;
-				soma2/=media;			}
+				soma2 /= media;
+			}
 
 		}
 		System.out.println("Resultado soma dos menores que 15 = " + soma);
 		System.out.println("Resultado soma maior que 15 = " + soma1);
 		System.out.println("Quantidade de numereos maiores que 15 = " + media);
-		System.out.println("Resultado média dos maiores que 15 = " + (float)soma2);
+		System.out.println("Resultado média dos maiores que 15 = " + (float) soma2);
 		System.out.println("A quantidade de numeros 15 = " + count);
-		
 
 	}
 
