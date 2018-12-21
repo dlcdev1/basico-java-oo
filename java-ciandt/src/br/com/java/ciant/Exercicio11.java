@@ -51,11 +51,11 @@ public class Exercicio11 {
 				for (int j = 1; j <= 10; j++) {
 					System.out.println("Tabuada of: " + j);
 
-					//if (j > 0) {
-						for (int i = 1; i <= 10; i++) {
-							System.out.println(i + " X " + j + " = " + i * j);
+					// if (j > 0) {
+					for (int i = 1; i <= 10; i++) {
+						System.out.println(i + " X " + j + " = " + i * j);
 
-					//	}
+						// }
 
 					}
 
