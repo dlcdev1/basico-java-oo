@@ -29,6 +29,7 @@ public class Exer18_rv {
 				idadeMenor = vetorA[i];
 				if (vetorA[i] < idadeMenor) {
 					idadeMenor = vetorA[i];
+					
 				}
 			}
 
