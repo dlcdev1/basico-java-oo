@@ -1,5 +1,7 @@
 package br.com.aula20;
 
+//https://www.slideshare.net/loianeg/curso-java-basico-exercicios-aula-20
+
 import java.util.Random;
 import java.util.Scanner;
 

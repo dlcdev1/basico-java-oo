@@ -25,12 +25,12 @@ public class Exer4 {
 				boolean diaValido = false;
 				int dia = 0;
 				while (!diaValido) {
-					System.out.println("Entre com o dia do mês");
+					System.out.println("Entre com o dia do mï¿½s");
 					dia = scan.nextInt();
 					if (dia > 0 && dia <= 31) {
 						diaValido = true;
 					} else {
-						System.out.println("Dia inválido, digite novamente");
+						System.out.println("Dia invï¿½lido, digite novamente");
 					}
 
 				}
@@ -42,13 +42,46 @@ public class Exer4 {
 					if (hora > 0 && hora <= 24) {
 						horaValida = true;
 					} else {
-						System.out.println("Hora inválida, digite novamente");
+						System.out.println("Hora invï¿½lida, digite novamente");
 					}
 				}
 				dia--;
 				System.out.println("Digite o compromisso:");
 				compromisso[dia][hora] = scan.next();
 
+			}
+			if (opcao == 2) {
+				boolean diaValido = false;
+				int dia = 0;
+				while (!diaValido) {
+					System.out.println("Entre com o dia do mï¿½s");
+					dia = scan.nextInt();
+					if (dia > 0 && dia <= 31) {
+						diaValido = true;
+					} else {
+						System.out.println("Dia invï¿½lido, digite novamente");
+					}
+
+				}
+				boolean horaValida = false;
+				int hora = 0;
+				while (!horaValida) {
+					System.out.println("Entre com a hora");
+					hora = scan.nextInt();
+					if (hora > 0 && hora <= 24) {
+						horaValida = true;
+					} else {
+						System.out.println("Hora invï¿½lida, digite novamente");
+					}
+				}
+				dia--;
+				System.out.println("Compromisso:");
+				System.out.println(compromisso[dia][hora]);
+
+			}
+			if (opcao == 0) {
+				System.out.println("Programa encerrado!");
+				sair = true;
 			}
 		}
 	}
