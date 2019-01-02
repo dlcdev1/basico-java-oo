@@ -2,9 +2,13 @@ package br.com.aula24;
 
 public class Lampada1 {
 
-	int preco;
-	String voltagem;
-	String tipo;
-	int durabilidade;
+	String modelo;
+	String tensao;
+	int potencia;
+	String cor;
+	String tipLuz;
+	int garantiaMeses;
+	String[] tipos;
+	boolean tipoAbajur;
 
 }

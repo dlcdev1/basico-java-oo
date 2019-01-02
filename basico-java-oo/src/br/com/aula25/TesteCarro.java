@@ -10,9 +10,12 @@ public class TesteCarro {
 		van.numPassageiros = 10;
 		van.capCombustivel = 100;
 		van.consumoCombustivel = 0.2;
+		
+		System.out.println(van.marca);
+		System.out.println(van.modelo);
 
 		van.exibirAutonomia();
-
+		
 	}
 
 }
