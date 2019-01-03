@@ -7,4 +7,10 @@ public class ContaCorrente {
 	boolean especial;
 	double limiteEspecial;
 	double saldo;
+	double chequeEspecial;
+	
+	
+	void realizarSaque() {
+		
+	}
 }
