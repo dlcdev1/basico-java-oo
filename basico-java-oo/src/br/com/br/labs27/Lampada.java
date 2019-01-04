@@ -1,7 +1,7 @@
 package br.com.br.labs27;
 
 public class Lampada {
-	
+
 	String modelo;
 	String tensao;
 	int potencia;
@@ -9,38 +9,34 @@ public class Lampada {
 	String tipLuz;
 	int garantiaMeses;
 	String[] tipos;
-	boolean tipoAbajur;	
+	boolean tipoAbajur;
 	double preco;
-	
+
 	boolean ligada;
 	boolean desligada;
-	
-	
+
 	void ligar() {
 		ligada = true;
 	}
-	
+
 	void desligar() {
 		ligada = false;
 	}
-	
+
 	void mostrarEstado() {
-		if(ligada) {
+		if (ligada) {
 			System.out.println("Lampada ligada");
 		} else {
 			System.out.println("Lamapada desligada");
 		}
 	}
-	
+
 	void mudarEstado() {
-		if(ligada) {
+		if (ligada) {
 			desligar();
 		} else {
 			ligar();
 		}
 	}
-	
-	
-	
 
 }
