@@ -1,0 +1,22 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exer02 {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner scan = new Scanner(System.in);
+		
+		double base = scan.nextDouble();
+		double altura = scan.nextDouble();
+		
+		double area = base * altura;
+		double perimetro = 2.0 * (base + altura);
+		double diagonal = Math.sqrt(Math.pow(base, 2.0) + (Math.pow(altura, 2.0)));
+		
+		System.out.printf("AREA = %.4f%n", area);
+		System.out.printf("PERIMETRO = %.4f%n", perimetro);
+		System.out.printf("DIAGONAL = %.4f%n", diagonal);
+	}
+
+}
