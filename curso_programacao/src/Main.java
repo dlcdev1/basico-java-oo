@@ -8,7 +8,7 @@ public class Main {
 		String nome = "Maria";
 		int idade = 31;
 		double renda =4000.0;
-		
+		 
 		
 		System.out.println("Ola mundo!");
 		System.out.println(x);

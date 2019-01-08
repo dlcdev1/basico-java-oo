@@ -1,7 +1,7 @@
 package Exer01;
 
 public class lista2 {
-	
+		
 	/*
 	 * 1009 - string
 	 * 1011 - casting

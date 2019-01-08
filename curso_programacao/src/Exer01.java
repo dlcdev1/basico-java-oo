@@ -23,7 +23,7 @@ public class Exer01 {
 		System.out.println("Measue with eight decimal place: " + measure);
 		System.out.printf("Rouded (three decimal place): %.3f%n", measure);
 		System.out.printf("US decimal point: %.3f%n", measure);
-
+ 
 	}
 
 }
