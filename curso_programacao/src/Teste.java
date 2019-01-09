@@ -2,7 +2,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 //nao esqueca de mudar o nome da classe para Main
-public class Main {
+public class Teste {
 
 	public static void main(String[] args) {
 
@@ -14,21 +14,11 @@ public class Main {
 		
 		N = sc.nextDouble();
 		
-		// Vamos multiplicar N por 100 e forçar a conversão para int.
-		// Desse modo, por exemplo, 576.73 vai se tornar 57673
-
-		// Vamos tambem somar 0.5 antes de converter, para assegurar 
-		// que o numero seja devidamente arredondado, pois o tipo double
-		// as vezes da problema de arredondamento (por exemplo: se digitarmos
-		// 576.81 e multiplicarmos por 100, o resultado sera 57680.99999999,
-		// dai o casting resultaria em 57680 e nao 57681 como desejado)
 
 		resto = (int) (N * 100.0 + 0.5);
 
 		System.out.println("NOTAS:");
 
-		// como multiplicamos o valor por 100 acima, o valor de cada nota
-		// também deverá ser multiplicado por 100 a seguir
 		
 		nota = 100;
 		quociente = resto / (nota * 100);
