@@ -32,7 +32,7 @@ public class Main {
 		inicio = (dia1 - 1) * 24 * 60 * 60 + hora1 * 60 * 60 + minuto1 * 60 + segundo1;
 		fim = (dia2 - 1) * 24 * 60 * 60 + hora2 * 60 * 60 + minuto2 * 60 + segundo2;
 
-		duracao = fim - inicio;
+		duracao = fim - inicio; 
 
 		dia = duracao / (24 * 60 * 60);
 		resto = duracao % (24 * 60 * 60);

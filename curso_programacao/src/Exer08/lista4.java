@@ -6,15 +6,15 @@ public class lista4 {
 	 * Primeiros grupos: 
 	 * 1035 - done
 	 * 1038 - done
-	 * 1044
-	 * 1046
-	 * 1048,
+	 * 1044 - done
+	 * 1046 - done
+	 * 1048 - done
 	 * Segundo grupo: 
 	 * 1037 - done
 	 * 1040(use float) - done
 	 * 1041 - done
-	 * 1045
-	 * 1047
+	 * 1045 - done
+	 * 1047 - done
 	 * 1049
 	 * 1051
 	 * 

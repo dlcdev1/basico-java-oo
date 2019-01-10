@@ -13,10 +13,10 @@ public class Main {
 		if (a % b == 0 || b % a == 0) {
 			System.out.println("Sao multiplos");
 		} else {
-			System.out.println("Não so multiplos");
+			System.out.println("Nao so multiplos");
 		}
 
 		sc.close();
-	}
+	} 
 
 }
