@@ -3,9 +3,9 @@ package Exer10;
 public class lista5 {
 	
 	/* Primeiro grupo
-	 * 1114
-	 * 1115
-	 * 1117
+	 * 1114 - done
+	 * 1115 - done
+	 * 1117 - 
 	 * 1134
 	 * 1154
 	 * 1159
