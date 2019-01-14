@@ -8,14 +8,14 @@ public class lista06 {
 	 * 1072 - done
 	 * 1074 - done
 	 * 1079 - done
-	 * 1116 - 
-	 * 1132
-	 * 1153
-	 * 1157
+	 * 1116 - done 
+	 * 1132 - done
+	 * 1153 - done
+	 * 1157 - done
 	 * 
 	 * segundo grupo
 	 * 
-	 * 1080
+	 * 1080 - done
 	 * 1094 *
 	 * 1142
 	 * 1143
