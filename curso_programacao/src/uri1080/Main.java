@@ -1,9 +1,6 @@
 package uri1080;
 
-
 import java.util.Scanner;
-
-import javafx.scene.control.RadioMenuItem;
 
 public class Main {
 
@@ -13,7 +10,7 @@ public class Main {
 		int maior = sc.nextInt();
 		int posicao = 1;
 
-		// agora vamos ler o segundo até o centésimo
+		// agora vamos ler o segundo atï¿½ o centï¿½simo
 		for (int i = 2; i <= 100; i++) {
 			int x = sc.nextInt();
 			if (x > maior) {

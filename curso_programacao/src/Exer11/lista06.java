@@ -16,17 +16,17 @@ public class lista06 {
 	 * segundo grupo
 	 * 
 	 * 1080 - done
-	 * 1094 *
-	 * 1142
-	 * 1143
+	 * 1094 * -done
+	 * 1142 - done
+	 * 1143 - done
 	 * 
 	 * terceiro grupo
 	 * 
-	 * 1144
-	 * 1145
-	 * 1146
-	 * 1101
-	 * 1158
+	 * 1144 - done
+	 * 1145 - done
+	 * 1146 - done
+	 * 1101 - done
+	 * 1158 - done
 	 * 
 	 * imprimir o simbolo % usa se %% ()%.2f %%%n"
 	 * 
