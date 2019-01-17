@@ -5,7 +5,7 @@ package br.com.aula19.arrays;
 import java.util.Scanner;
 
 public class Exer01 {
-
+	
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
